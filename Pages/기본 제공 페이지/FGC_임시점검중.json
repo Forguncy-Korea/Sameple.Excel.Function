@@ -1,0 +1,82 @@
+{
+  "Rows": {
+    "Count": 32
+  },
+  "Cols": {
+    "Count": 39
+  },
+  "Values": {
+    "8,6": "웹사이트 임시 점검 중입니다. \r\n나중에 다시 방문하여 주십시오.",
+    "15,6": "현재 사이트 업데이트 관계로 접속하실 수 없습니다. \r\n잠시 후 다시 시도하여 주십시오.",
+    "19,6": "이용에 불편을 드려 죄송합니다."
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 29.333333333333332,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 4,
+        "FontSize": 21.333333333333332,
+        "Foreground": 5,
+        "Formatter": 2,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "S-Core Dream 8",
+        "Text 1 35",
+        "[AUTO]General",
+        "Center",
+        "S-Core Dream 4",
+        "Text 1 25",
+        "S-Core Dream 3"
+      ]
+    },
+    "CellStyles": {
+      "8,6": 0,
+      "15,6": 1,
+      "19,6": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "Spans": [
+    "19,6,4,27",
+    "15,6,4,27",
+    "8,6,6,27"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "colorful-background-with-alcohol-ink1.jpg",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Name": "2c08bbad-85b2-4964-b612-2bb837e72602.jpg",
+      "Size": "680,640"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_임시점검중_모바일",
+    "Title": "유지보수",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//4ac69BdJvXftReFbWyXyd0J1iCCKfOreKI8qFuP7qjb98g0TBcgdfJ3XgCBLtwj29fhG2eh7fDU4mFNfZL0svNwSPnRk2zjMCiSCbbNO8kjN8tMp5pEhawEl5/BEVSJM94KzdqJ9if/T7vY1RmqKhH6yNl8iAkN3vz2MdtRp9M/VJpjZUBeKXTxdfsGL7k65q7hAHUDiWnszEkCgMv75c664ZxOBAv+xBniEXeXrG0GxNBFkfTdJ8CPUaV16GaJSofqAyrOelbg5jhjqOY5pmTArVkt3pWeHKj9B1hkorV8fGip4njHaYo9kFfHQ8iqrQACOfISMqfkvxciLfD0RDdrC2GtcvjWrBl9kLxy5a1vydmDFr6y/xW9sirNFP3h9lVf+ksqAiHjeisQwmnqjfBrvqGnRhSZpXkb1KJRaraxpTVX9a2mw7XVf3/DR5OljuH9fRPjrgyhGFpEB7RmPPFhDPOwE/z17CvR039LUFwAFGFy1G6UPviYF79rCBQr//J70ZHO/TXgqhJsoQP7vDbIXFA3D56lEbH04t95WlAWlq/DXNVo8lBkWPH5JTwn40BHhoR3YgvI/r40HzNA9hUTqBerbwNlQX9y0cQa9+meR29SlVt2vNu2Dlg5j+ey1ly/d0DLFYNIc2k3nq7NCRrdEY+idwvWG1Wo2sZQ0l1VYEl2j03UVWxW41gKN8zL8oYBbFQVO61lJsnhIgYx7xjqlW1OEUpeY5kgF9debmPle7uke2XMu7qWIeFgC8DQfdu3HWigFd6Z7smhOXa6EZBYgNN7QJppFJ41PiRiQ6xMnYAHtfXRo2hnJG3GYtJ0WmqA4xlxzn4LOHcW/lVGImU74PNjZUL4xHFAE3EdWlCtBrYmJqClhBnD+vsEa5FL2bKiz8h8X8iXOKdmZokLtfg==|920

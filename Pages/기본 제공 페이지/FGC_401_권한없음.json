@@ -1,0 +1,154 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 39.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "10,12": "접근 오류",
+    "13,12": "이 페이지를 볼 수 있는 권한이 없습니다.",
+    "15,12": "가능한 원인",
+    "17,12": "로그인한 사용자가 필요한 권한을 가지고 있지 않습니다.",
+    "19,12": "해결 방법",
+    "21,11": "1.",
+    "21,13": "로그아웃 후 권한 있는 다른 계정으로 로그인하세요.",
+    "23,11": "2.",
+    "23,13": "페이지 뒤로가기 후 다른 링크를 선택하세요.",
+    "25,11": "3.",
+    "25,13": "웹사이트 관리자에게 문의하세요."
+  },
+  "AttachInfos": {
+    "21,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "로그아웃 후 권한 있는 다른 계정으로 로그인하세요.",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 37.333332061767578,
+        "VerticalAlignment": 1
+      },
+      {
+        "FontSize": 16.0,
+        "VerticalAlignment": 1
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 3,
+        "VerticalAlignment": 1
+      },
+      {
+        "FontSize": 16.0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 1
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 5,
+        "VerticalAlignment": 1,
+        "Underline": true
+      },
+      {
+        "FontSize": 16.0,
+        "VerticalAlignment": 1,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "S-Core Dream 8",
+        "Top",
+        "S-Core Dream 4",
+        "Bold",
+        "Right",
+        "#FF0070C0",
+        "S-Core Dream 3"
+      ]
+    },
+    "CellStyles": {
+      "10,12": 0,
+      "13,12": 1,
+      "15,12": 2,
+      "17,12": 1,
+      "19,12": 2,
+      "21,11": 3,
+      "21,13": 4,
+      "23,11": 3,
+      "23,13": 5,
+      "25,11": 3,
+      "25,13": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "21,11,2,2",
+    "23,11,2,2",
+    "25,11,1,2",
+    "23,13,2,23",
+    "25,13,1,23",
+    "21,13,2,23",
+    "13,12,2,24",
+    "10,12,3,24",
+    "19,12,2,24",
+    "17,12,2,24",
+    "15,12,2,24"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "colorful-background-with-alcohol-ink1.jpg",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Name": "9c914ade-2c8e-4971-971b-4ce1d67e3b27.jpg",
+      "Size": "940,739"
+    },
+    {
+      "Transparency": 0.5,
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
+      "Location": "200,180",
+      "Size": "540,379"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_401_권한없음_모바일",
+    "Title": "401페이지",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//fc17r398nq6EkFqN3fVjYqcJu41drfPgHXFjJFtVCRSJRhOkUKDmRV/+B+HIX6AsQ+qErE5WzP18RfHS8H4GT+VfVHDc3g46lr2v+6aA9M3ooI1eize5mzav0DzeIYthAmDyrwDs91Dcy9RVnEO+ykcc7Czf5XErpWSXExBt332/wfqeA02MnvCSw5ee7VDFh4Q4PaBl8fOHnm1sm9qmwpr7TE35HzABNg4f/svHBoMpro98LwwOBYo0axAMScNNlDAGB194kEmtUSWNfVbo/XuV86etE3PcHAPRzMv01+eE8oYAmy2tIbAIvj996l+l3Yk4nanINgR9YMm4zbqpDLEzTE/auQKDWJWgwePqNdT7EjnzYSR+goNDvns3FSvND4ZM1WrPklP4G/ZXMmDDsjL5HLU3PvtvinQfyS97JTLtUM4HI1xapHgPRKmRNzM3tXMACkVjW+tGVvItR7puE1IW48yHlarWmpGA7vgELu2Y4igMozjIjcEl0tHnRF913wmREyT3FqBonvEtVqmLN5ucJglrJcHs6WOgg1HfwQ3B2XqEC57Fh7ifVyrL8rF1ZnoMV/qXRHxcJq2JMREn1yif/tUE8g+DzEViiBuBA9+oRz88TwjrSuhHVxmY1oLOm44FxrUVK3ZbuhqvvWWfsmzYiUCUuVJj9khXMaKb6KCaBqjmNIj/l0PUJNex0pZJsvyXXIrx7Q96X7cBbdtLPftBEhnUtkbc7RcSfhSb3ShiKFspBwE8bNHeHxDORPoDgx4OQumAv3EQYUCJz2mqfTcdTRaoAeV9J6ZFnBBXCwbg8fIhwrdYzWPWc/gdU13TB0h/IVDQWbdhgL/eNI7ZDUCkfz9Vu4c8NL7n1hJHr5/top00JVYms2lcO11b9/1M5VppqHnYdMQhCe+rPHO5+Q==|920

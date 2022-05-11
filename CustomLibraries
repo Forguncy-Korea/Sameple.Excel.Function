@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomLibraries>
+  <UserCSSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>delaring-fonts.css</Name>
+    </Item>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>forguncy-portal.css</Name>
+    </Item>
+  </UserCSSFileList>
+  <UserJSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>ga.js</Name>
+    </Item>
+  </UserJSFileList>
+</CustomLibraries>

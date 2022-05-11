@@ -1,0 +1,354 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 46
+  },
+  "Values": {
+    "6,10": "비밀번호 변경",
+    "10,19": "*",
+    "11,18": "현재 비밀번호",
+    "14,19": "*",
+    "15,18": "새 비밀번호",
+    "18,19": "*",
+    "19,18": "새 암호를 확인하십시오.",
+    "23,21": "비밀번호 변경",
+    "23,31": "취소"
+  },
+  "AttachInfos": {
+    "10,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_OldPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "14,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangePassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "23,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "비밀번호 변경",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ChangePassword_Button"
+      }
+    },
+    "23,31": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "취소",
+        "TemplateKey": "로그인_취소_버튼"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 32.0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Foreground": 3
+      },
+      {
+        "Background": 4,
+        "Formatter": 5
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 6,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 8,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 9,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 8,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 8,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 9,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "S-Core Dream 8",
+        "Text 1 25",
+        "Center",
+        "#FFFF0000",
+        "Background 1 0",
+        "@",
+        "Text 1 35",
+        "Right",
+        "S-Core Dream 3",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "6,10": 0,
+      "10,19": 1,
+      "10,21": 2,
+      "11,18": 3,
+      "14,19": 1,
+      "14,21": 2,
+      "15,18": 3,
+      "18,19": 1,
+      "18,21": 2,
+      "19,18": 3,
+      "23,21": 4,
+      "23,22": 5,
+      "23,23": 5,
+      "23,24": 5,
+      "23,25": 5,
+      "23,26": 5,
+      "23,27": 5,
+      "23,28": 5,
+      "23,29": 5,
+      "23,31": 6,
+      "23,32": 5,
+      "23,33": 5,
+      "23,34": 5,
+      "23,35": 5,
+      "24,21": 5,
+      "24,22": 5,
+      "24,23": 5,
+      "24,24": 5,
+      "24,25": 5,
+      "24,26": 5,
+      "24,27": 5,
+      "24,28": 5,
+      "24,29": 5,
+      "24,31": 5,
+      "24,32": 5,
+      "24,33": 5,
+      "24,34": 5,
+      "24,35": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 8,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "18,21,3,15",
+    "14,21,3,15",
+    "10,21,3,15",
+    "10,19,2,1",
+    "14,19,2,1",
+    "18,19,2,1",
+    "6,10,3,26",
+    "23,21,2,9",
+    "23,31,2,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "wp3255679-powerpoint-sheet-music-background.jpg",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Name": "61725135-6c86-4700-b124-d437aa3a8353.jpg",
+      "Location": "20,0",
+      "Size": "877,582"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#7FF4FAFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "62561905-5fff-46e3-b5f3-9be0cb0f51e0.png",
+      "Location": "151,64",
+      "Size": "629,452"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_비밀번호변경_모바일",
+    "Title": "비밀번호 변경",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//qImmQjVbqeHAoXlqH3VNkUVvF++awd2drXbXs5/0702l0NBwIhxQcnihdA+eWDUMEwYrUmc4FeZztfKM9R6FrTl1v0i30VETSuzFPE9vGGQkKfgIwP+oJcWIrALQMlgePJiKGRdlZWR+o3GQRXFBcJlvDPfqRsJnjCMI8vekAzS0Phzg7tBV/+YLfJA1lpyUXivCl8RU8U/EF4DI0KdujagBgUfIzvnbh5sHilTQzYUVk9MozKtWEBqVUcuV701KUTplY02iEUvs68NzZq7RNc9385uiUX1842aSjILHQwlBdGGXy6zrEQgcIzsmSuDaq7cgM90Vy5DRxrFfmPukmB9xf5EJLi3d78Pdb8/j663hW4j9gbfSGuL6esveIX+Zf4ZRTFutF/+KmScjpVYdSwWwPsdxwqgV2ePOalWvo63GfSZp/J6oXF/ER93CLy5xVxvKnvTUbaGoebI1qDsRLKszPaca1CxKvd/E693aHGKUCzXTAxjw1OWr1h7nSO9TCyhmXIHOIOV1B5X+tXSN/EVxNhXdEqEsZTToZmhphsMyCYxWcPNmQEFzFuocaCGL8xxHdAqahUAIvop9Z5OJq7SDel7Y311WPlkJB7gmoGdAGRv3aXfzIWoNOa3T1PjlR2CXHVMN6c6fUWSfMra/kEPYA2FOEg9TkkxAJmg5irkjgQLP6NmjaQCX16ppN5mxl4pmAw6hRWyCmFhdtyWx40xEMhqwOe09cL9ETLsl/6FrWB3gHRh1OtropEXUmUX/DsWRBsOfM7w5om2i8YfAbFOx0LP+5Kv8N6TnrnXhKLdau9I9xyTH2ReFZgqpCPL6KVhv0iBOjkTsYFFWLXixEll3BeiVN5mVP2hKYGvRPJ4kExLpEK2/0u4oBKJ421FZETaTet2zt1JJOPL5qxFg+Q==|920

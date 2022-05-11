@@ -1,0 +1,232 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "49": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "50": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3
+    ],
+    "Count": 51
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "55": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 56
+  },
+  "AttachInfos": {
+    "4,5": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 5,
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 4,
+        "Foreground": 1,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "휴먼둥근헤드라인",
+        "Background 1 0",
+        "Center",
+        "Body",
+        "S-Core Dream 3",
+        "Text 1 50",
+        "Right",
+        "#FF042531",
+        "#FF006499"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,45": 1,
+      "4,1": 2,
+      "47,5": 3,
+      "49,1": 4,
+      "49,54": 5
+    },
+    "RowStyles": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "48": 7,
+      "49": 7,
+      "50": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "Underline": false,
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,22",
+    "1,45,1,10",
+    "4,1,39,3",
+    "4,5,43,50"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//saITj/iJupgy6UcvtdQvmjNJTXNlka9N90jU134599qFXJ7IbKYMVkushY36jttNmwjWcDoOWRaB3nzr4+maPsC+KzIsEYk89bp6U9PKkzoVO1KoSyj39joDki8s6BO30qeZMWL8u7O/D4/gdBI7n0x3ug13n74UrpD+NXlz2KPM5p4DpVsf0ewY52BteAp3TSBY6PkgI7W7+u1GqMj8M37BC7GauNfS6l3U/u9rLz4IiejTyzu4R8gGu4Dby3/AZLwqhxwSN5Jwa3iE8DUShaVaZ0bR5p+INLmDp9EpxZooevMgK6cv9Zb9BiDvMqG4qZer2xh2rC0eSzgyfnrG4yvYtXEJ3ziGJ1tUnYSn43KB+irr7x6L85BAVKaKLcRIm/BL5hcdv5WXPrMKhFO8a9KRv9O4u0hN3m2+QfeXOGRNQUQPmZlfnW0fX1Ui8Q1+exvhuLeQS4ZFLgp3CQ8ySS7IGmz0mHbMl/xhWynmdR2I4L9TzXZbS7p5drF5M90nfw6ODk+QwTW5WbyZ8RFxZr1cedCOi7E7+JboOJEH6eWTI1U7b0+h8Rwpe4Ev6VY9jp9ooo/6AUTUbm4vp+/zvQ/5cmW1Ua79WRlGRW3HwSEVbHjTugtn+kBbmCrnry/Va+u/mdH1T0yu5a1iQa1zY1GzHyqsTIkxZ7bhfuKi23kVdqvHlZWtIySJvzuhcbXdDgteISHHEKQTAtDsql66URG7NLFS0HK//cbKbhkHO3X9efsxdImFri7xI9JYYiTmo8qqTAkleek89z8MFxCijsfZsW09JGAPEGkedVuqNKJu7R8VRgxz63SSwPNEbPjS6cH+JJQZtU5i++UD0EAt4FhPf5osjnWrQVRKLVuAAGEnF9CA/G/xN2UFTtlTk9EyxcbFfU/ogPOu2vieKzoFLA==|920

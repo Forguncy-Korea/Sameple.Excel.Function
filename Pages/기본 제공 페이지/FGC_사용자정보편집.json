@@ -1,0 +1,343 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 42
+  },
+  "Values": {
+    "0,0": "%CurrentUser.UserName%",
+    "6,6": "사용자 정보 편집",
+    "14,13": "계정 이미지",
+    "19,13": "표시된 전체 이름",
+    "19,14": "*",
+    "21,13": "이메일",
+    "21,14": "*",
+    "23,15": "사용자 정보 저장",
+    "23,26": "취소"
+  },
+  "Formulas": {
+    "6,6": "A1&\" \"&\"정보 편집\""
+  },
+  "AttachInfos": {
+    "11,15": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_EmptyText",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0
+        },
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "19,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangeProfile_FullName"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangeProfile_Email"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "23,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "사용자 정보 저장",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "23,26": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "취소",
+        "TemplateKey": "로그인_취소_버튼"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 32.0,
+        "Foreground": 3,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": 0
+      },
+      {
+        "FontSize": 18.666666666666664
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "Foreground": 5,
+        "HorizontalAlignment": 6,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Foreground": 7,
+        "VerticalAlignment": 8
+      },
+      {
+        "Background": 0,
+        "FontSize": 18.666666666666664,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 10,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 10,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 0",
+        "S-Core Dream 3",
+        "S-Core Dream 8",
+        "Text 1 25",
+        "Center",
+        "Text 1 35",
+        "Right",
+        "#FFFF0000",
+        "Top",
+        "@",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "5,5": 1,
+      "6,6": 2,
+      "11,15": 3,
+      "12,9": 4,
+      "12,10": 4,
+      "12,11": 4,
+      "12,12": 4,
+      "12,13": 4,
+      "13,9": 4,
+      "13,10": 4,
+      "13,11": 4,
+      "13,12": 4,
+      "13,13": 4,
+      "14,9": 4,
+      "14,10": 4,
+      "14,11": 4,
+      "14,12": 4,
+      "14,13": 5,
+      "15,9": 4,
+      "15,10": 4,
+      "15,11": 4,
+      "15,12": 4,
+      "15,13": 4,
+      "16,9": 4,
+      "16,10": 4,
+      "16,11": 4,
+      "16,12": 4,
+      "16,13": 4,
+      "17,9": 4,
+      "17,10": 4,
+      "17,11": 4,
+      "17,12": 4,
+      "17,13": 4,
+      "18,9": 4,
+      "18,10": 4,
+      "18,11": 4,
+      "18,12": 4,
+      "18,13": 4,
+      "19,9": 4,
+      "19,10": 4,
+      "19,11": 4,
+      "19,12": 4,
+      "19,13": 5,
+      "19,14": 6,
+      "19,15": 7,
+      "20,9": 4,
+      "20,10": 4,
+      "20,11": 4,
+      "20,12": 4,
+      "20,13": 4,
+      "21,9": 4,
+      "21,10": 4,
+      "21,11": 4,
+      "21,12": 4,
+      "21,13": 5,
+      "21,14": 6,
+      "21,15": 7,
+      "23,15": 8,
+      "23,16": 1,
+      "23,17": 1,
+      "23,18": 1,
+      "23,19": 1,
+      "23,20": 1,
+      "23,21": 1,
+      "23,22": 1,
+      "23,23": 1,
+      "23,24": 1,
+      "23,26": 9,
+      "23,27": 1,
+      "23,28": 1,
+      "23,29": 1,
+      "23,30": 1,
+      "24,15": 1,
+      "24,16": 1,
+      "24,17": 1,
+      "24,18": 1,
+      "24,19": 1,
+      "24,20": 1,
+      "24,21": 1,
+      "24,22": 1,
+      "24,23": 1,
+      "24,24": 1,
+      "24,26": 1,
+      "24,27": 1,
+      "24,28": 1,
+      "24,29": 1,
+      "24,30": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "11,15,6,16",
+    "23,15,2,10",
+    "23,26,2,5",
+    "19,15,1,16",
+    "21,15,1,16",
+    "6,6,3,28"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "Music-Consideration-Powerpoint-Backgrounds.jpg",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Name": "771c0e56-50db-43fc-8674-316c2d56a942.jpg",
+      "Location": "24,0",
+      "Size": "814,680"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#7FF4FAFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "64d42be6-0eef-4d6f-b7eb-c530000e4561.png",
+      "Location": "81,58",
+      "Size": "620,563"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_사용자정보편집_모바일",
+    "Title": "사용자 정보 편집",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//G5oP3QIVJpjLbKsXbrHX/B1xXhu1mD8XTfA/7WbhDSlUoXIpOcH+kPIMddS7DIn4f1A73H84HDyIdtkr85Bg/9f9PIUrN3SwK4qbZA7Ud2nUKKWDOS1OMr5evnna27kS57tZSVF67Wd41gVCz1twySxVqhAMGVlU7phvpeEKHGkTnnXf70rdnZxdN7T6zRywhO0d+SToc31lvs5I04dPXwhGaRiGekm9NjqkVHn9nIXg1uTKjD43Pd2UPYCByHs0q5KdqCJJ56PxwX4RUqY/fLwSly2LzOyI+RbuMYwEpqX24aUjYMZKaup3B43K5d49TydpUhNHSYnKsQawoxiNpfMc4BRLU6UfYMZZ4F58qN2lSQYVGdzUHdLS+Kan1Kcgae3ER/HHqsv/ZPKzEMr5kbQfWS/rqkHWSOpgF/OBEeT6OJho3ZQDn9kLsKLmzRQxqpZqlxHInPW5W0n8f0mWwhAEgkeUToaKHc55IbMW401/CORZuYcaaOzlAMBQM2arktzCQx2IGZrfvmHkhgGiRGzVmLxvBZx66avR5cXjtZ5uWespS6LsE/aUMdlewxKGBw1lHhdGm29tPhSUJFI4Zx10+jTIDJvowLYHYNuOjc1GPEFqaehmaIE5Ic7qDIi9e+doYHIacJkZ2BGUxv6TdvrYICZd0f64oToSMRmw4yPw3OBbUGzTYe64Bmn1SPtE4jDhDTmdDTPhSy6jusbJiW6CbWxTfBBgVzLvG0L/q7U/OSHS6E4TbF2G3JteG4xDzaVp5NA3myNxLuMPlhb3576A6j/U5piWpj7R6Zy7yYYzhEtt+RyeeaaFVGiza31Vui+ZRKfIGJQnHNao7PZNfJk8BhW7c12bCuV9+AKww894O5HoKpDbUn2bLScfWIgRhf7TUFl4TR5ZzAsg6TgUjA==|920

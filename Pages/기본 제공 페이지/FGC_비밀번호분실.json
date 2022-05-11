@@ -1,0 +1,281 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 40
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 47
+  },
+  "Values": {
+    "10,12": "비밀번호를 잊으셨습니까?",
+    "15,12": "사용자 ID 혹은 이메일 주소를 입력해 주세요. \r\n\r\n아래 메일발송 버튼을 클릭하신 후 이메일을 확인해 주세요. 암호를 재설정할 수 있는 링크를 포함한 이메일을 보내드립니다. 링크를 클릭하여 암호를 변경하실 수 있습니다.",
+    "23,12": "사용자 이름 혹은 이메일 주소",
+    "27,22": "이메일 보내기",
+    "27,31": "취소"
+  },
+  "AttachInfos": {
+    "25,12": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ForgotPassword_UserOrEmail"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "27,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "이메일 보내기",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ForgotPassword_Send"
+      }
+    },
+    "27,31": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "취소",
+        "TemplateKey": "로그인_취소_버튼"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 16.0,
+        "Foreground": 1,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 18.666666666666664,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 18.666666666666664,
+        "Formatter": 6,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 18.666666666666664,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 7,
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "S-Core Dream 8",
+        "Text 1 25",
+        "Center",
+        "S-Core Dream 3",
+        "Text 1 35",
+        "Left",
+        "@",
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "10,12": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,14": 0,
+      "13,15": 0,
+      "13,16": 0,
+      "13,17": 0,
+      "13,18": 0,
+      "13,19": 0,
+      "13,20": 0,
+      "13,21": 0,
+      "13,22": 0,
+      "13,23": 0,
+      "13,24": 0,
+      "13,25": 0,
+      "13,26": 0,
+      "13,27": 0,
+      "13,28": 0,
+      "13,29": 0,
+      "13,30": 0,
+      "13,31": 0,
+      "13,32": 0,
+      "13,33": 0,
+      "13,34": 0,
+      "13,35": 0,
+      "14,12": 0,
+      "14,13": 0,
+      "14,14": 0,
+      "14,15": 0,
+      "14,16": 0,
+      "14,17": 0,
+      "14,18": 0,
+      "14,19": 0,
+      "14,20": 0,
+      "14,21": 0,
+      "14,22": 0,
+      "14,23": 0,
+      "14,24": 0,
+      "14,25": 0,
+      "14,26": 0,
+      "14,27": 0,
+      "14,28": 0,
+      "14,29": 0,
+      "14,30": 0,
+      "14,31": 0,
+      "14,32": 0,
+      "14,33": 0,
+      "14,34": 0,
+      "14,35": 0,
+      "15,12": 1,
+      "23,12": 2,
+      "24,12": 2,
+      "24,13": 2,
+      "24,14": 2,
+      "24,15": 2,
+      "24,16": 2,
+      "24,17": 2,
+      "24,18": 2,
+      "24,19": 2,
+      "24,20": 2,
+      "24,21": 2,
+      "24,22": 2,
+      "24,23": 2,
+      "24,24": 2,
+      "24,25": 2,
+      "24,26": 2,
+      "24,27": 2,
+      "24,28": 2,
+      "24,29": 2,
+      "24,30": 2,
+      "24,31": 2,
+      "24,32": 2,
+      "24,33": 2,
+      "24,34": 2,
+      "24,35": 2,
+      "25,12": 3,
+      "27,22": 4,
+      "27,31": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 8,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "10,12,3,24",
+    "15,12,6,24",
+    "27,31,2,5",
+    "27,22,2,8",
+    "23,12,1,24",
+    "25,12,1,24"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "colorful-background-with-alcohol-ink1.jpg",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Name": "7beafc14-dcbc-4d04-8fc4-53c03ea94fd8.jpg",
+      "Size": "940,830"
+    },
+    {
+      "Transparency": 0.49684931506848995,
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "6ad52652-dff8-48ff-b997-9781afc7e34b.png",
+      "Location": "198,158",
+      "Size": "569,494"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_비밀번호분실_모바일",
+    "Title": "비밀번호를 잊으셨습니까?",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//rSxtPyUFWU7vaftF/s36822eSMpnb1jnP9TCBeW0gzJJZ/cp9nUe604HU4k1XtOPt4wjDFj6haCV6YRalzlsM+7KklckliHHi/bNzwSkPbArf2nLaZd67qLNKN6+mJ9jH+WaozO1+r18cOQAg+I/aLztwlZebMEicE/asXraZ/5Emmt2XskM/TicYyOceycS5LpLkhdZ6dleEwzDIrJgMSqhtp+FKiiu0igrNr/XLlMc834ft0jfvb/cmx05JCoEfGpvsP48nvkEvSBu8PjWbD5YwGTGPkwZW8lIbVVbREEDgSc4gS/gOCO0vHX9hoDTxqs5h9OBFNR1KtSKl8YDFzE0hUtYeVIhoM4cagqUzMqJDc0YrTwvvlrdTkfd/shQTckgO1SZN86kwhxRsO09RYjSwTNdek9ynZQq3KcHDAlOv5SmYlw3COYtXqAihoDfgaZfCObRq+f6FXHWxydZxYVpHkDq4tGxvkqS9JUH0Ky3NPI+SINfod/Xw4x0kJZXzVvNea+WWKZAMiMoNH+aB2ACbGY6G96hXdDxJUrO38U675t7bqaOe84hAPsWiGAfu/O8Wjb1EiTBtOmhHuvWw/uLL1jBS+BYJJs9FlUneckz75GXpzp3bmCLgUH16ZIGfc7BZW7mJzCaTINXmzPgy4yCPULWsqOgchd2QK6/r9VZHyi/+dK4KoW8HMAVeVdyMrbESavTs90JJRmFMdiPiBa3lVeO7JxSvp66YWGQrFjrKQANb/dqOwntBKAObC4DsknBOkTVooZrcnNY1HKUP8pCFYBstZevbeBODMWTjtN3yXHLuP0KsYuxJw9XeB8J6+mrMz8O7ZYSZqtemC1kRETHNKP9v3nU8zonRRB+EUIAwXS9r5J0gO5Svyad7Yclo2Wd0a1mOFrUdVz3wD0lJA==|920

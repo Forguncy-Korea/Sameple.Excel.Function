@@ -1,0 +1,91 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "6,12": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "10,12": "비밀번호 재설정 이메일이 귀하의 이메일 주소로 발송되었습니다. 이메일을 받으면 이메일의 링크를 클릭하십시오. 그런 다음 팝업 페이지에 새 암호를 입력하십시오. 메시지가 배달되지 않으면 관리자에게 문의하십시오.",
+    "17,29": "FGC_로그인"
+  },
+  "AttachInfos": {
+    "17,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_로그인",
+            "PassValues": []
+          }
+        ],
+        "Text": "FGC_로그인",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 0,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "6,12": 0,
+      "10,12": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "6,12,3,23",
+    "17,29,2,6",
+    "10,12,5,23"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_비밀번호재설정링크보내기_모바일",
+    "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//6rWnaDnXR5icn01VgVChoeqnYe5Uf6+aaPnsp2Boh5kWWWF7NUasVdWth7MR96DEMDTb3RRWDKdAeWyn4pb24qudBihowXNd1nVy5uF01IUPNDcFGdkoMOVSokP8k+WYZ4nf4NUfqynzoGC+N9XYrE2ZBjmzP0i4JQqBzVwMzFtcx70uxlmeuItSclQ58wgsuj10eVaN3p+yb0iYZBf+M3eUmM6QoB1jofn6Ai602h1/N9nqLUxpom1Hj/EisoQz24cIk5Z9K/7mjx9zV3thdayjTQUFwsvUGV2laF9a/qzqHDJwwQ83sCBIoabIT/kdlatZmGNqMpUecJJIEhbtRNupINf8BB/hPIhjbbkgDPaA/vLpUfZ4+yDFf3ilNk7KQm62GPppvwkix1Rni6BP4rgFgJfKlnQWgMfbLWNqNDt2eeRgX1/soyv/zYZJG12MQflpqGwUzeiEVPTD7o1RPx5f/xHyE/lahqW13auzrlHZjunNHSoK9XQRMH8WyK58817u0vn/dYGh4wp576H2Ykk1DdgTDIzSFhqQ+rdIAAsmkc/gVXJjs9Xrz4lHbslpXOUiXlaRvUiH9iGtwb5YEE8jxKHIPtb+ZXjxkcVl3Wk6EgKzA6GH/i8tkOsYtScZuAgiHKb7Lj3q7VRmsYZNGv1m0q72w6HRw/BDBjzHpJk41fTKEXqRWNRB665hQwOmsfp8yFaHIyJFQT5YFgl09MdKr2IVnANbC/R9uYqPRXMkZJxiGlz8TqOx6cNiEbQOS6pqEAz5clTR6epW4y4czFvFyFQ7oBE/vIqRzQjznyVlhKYTnJNUolHOFDcgIt2LhIKLLxCFeeRjM04e3hAQ7bWaa/mMqexB3RaqXeRlkA+6ovBPnoai2opZpT6XUJqdsbBDA9K2D/6gt5leftmhrA==|920

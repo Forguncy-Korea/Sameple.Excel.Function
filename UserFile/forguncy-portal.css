@@ -1,0 +1,14 @@
+/* 첫 화면 상단 그림 전체 가로 폭 정렬 */
+.carousel-item div { background-size: cover !important; }
+
+/* 체크박스 버튼형 관련 가로세로 정렬 */
+.fgc-toggle-button { margin: 2px !important; }
+
+/* 메뉴의 텍스트를 가운데 두고 싶었던 듯 (아직 성공 못함) */
+.menuContainer div { text-align: center !important; }
+
+/* 메뉴 위치 가운데로 변경
+.fgcKRMainMenu a{
+    justify-content: center !important;
+}
+일단 오류가 있어서 개선 필요. comment out - 2021-12-24 */

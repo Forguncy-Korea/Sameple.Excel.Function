@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.ConditionCommand" assembly="ServerDesignerCommon">
+        <ConditionAndCommandPairList>
+          <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+            <CommandList>
+              <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+                <PropertyItemsList>
+                  <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+                    <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=ToggleText</SerializeProperty>
+                    </TargetCells>
+                    <Value type="System.String">
+                      <Value>On</Value>
+                    </Value>
+                  </Item>
+                  <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+                    <PropertyType>Forecolor</PropertyType>
+                    <PropertyTypeDisplay>글자 색상</PropertyTypeDisplay>
+                    <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=ToggleText</SerializeProperty>
+                    </TargetCells>
+                    <Value type="System.String">
+                      <Value>Text 1 0</Value>
+                    </Value>
+                  </Item>
+                </PropertyItemsList>
+              </Item>
+              <Item class="Forguncy.Model.SetRowColumnLayoutCommand" assembly="ServerDesignerCommon">
+                <PropertyItemsList>
+                  <Item class="Forguncy.Model.SetRowColumnLayoutItem" assembly="ServerDesignerCommon">
+                    <Location class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=ToggleArea</SerializeProperty>
+                    </Location>
+                    <Value type="System.Boolean">
+                      <Value>True</Value>
+                    </Value>
+                  </Item>
+                </PropertyItemsList>
+              </Item>
+            </CommandList>
+            <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
+              <Id>33e83073-fb1c-4a72-89b5-8d3d2e65e9ea</Id>
+              <Param class="Forguncy.Model.IfConditionPageElementParam" assembly="ServerDesignerCommon">
+                <ParamElementCellLocations>
+                  <Item class="Forguncy.Common.FormulaCellLocation" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=ToggleText</SerializeProperty>
+                  </Item>
+                </ParamElementCellLocations>
+              </Param>
+              <Value type="System.String">
+                <Value>Off</Value>
+              </Value>
+            </Condition>
+            <ID>abc08940-b6c5-481f-b437-950a7b055030</ID>
+          </Item>
+          <Item class="Forguncy.Model.ConditionAndCommandPair" assembly="ServerDesignerCommon">
+            <CommandList>
+              <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+                <PropertyItemsList>
+                  <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+                    <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=ToggleText</SerializeProperty>
+                    </TargetCells>
+                    <Value type="System.String">
+                      <Value>Off</Value>
+                    </Value>
+                  </Item>
+                </PropertyItemsList>
+              </Item>
+              <Item class="Forguncy.Model.SetRowColumnLayoutCommand" assembly="ServerDesignerCommon">
+                <PropertyItemsList>
+                  <Item class="Forguncy.Model.SetRowColumnLayoutItem" assembly="ServerDesignerCommon">
+                    <Location class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+                      <SerializeProperty>=ToggleArea</SerializeProperty>
+                    </Location>
+                    <Value type="System.Boolean">
+                      <Value>False</Value>
+                    </Value>
+                  </Item>
+                </PropertyItemsList>
+              </Item>
+            </CommandList>
+            <Condition class="Forguncy.Model.IfCondition" assembly="ServerDesignerCommon">
+              <Id>36bb530f-a218-4baa-ac31-10d7b6398f0d</Id>
+              <Param class="Forguncy.Model.IfConditionPageElementParam" assembly="ServerDesignerCommon">
+                <ParamElementCellLocations>
+                  <Item class="Forguncy.Common.FormulaCellLocation" assembly="ServerDesignerCommon">
+                    <SerializeProperty>=ToggleText</SerializeProperty>
+                  </Item>
+                </ParamElementCellLocations>
+              </Param>
+              <Value type="System.String">
+                <Value>On</Value>
+              </Value>
+            </Condition>
+            <ID>0622b13c-c886-4aa3-b513-193208410fb3</ID>
+          </Item>
+        </ConditionAndCommandPairList>
+      </Item>
+    </Commands>
+    <ID>67678a78-4d08-4bd3-a568-0c40f1298931</ID>
+    <Name>Cell Show/Hide Toggle Button</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>24056d61-c9ad-4162-9b19-ca903321c530</ID>
+        <Name>ToggleText</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>19cfc019-c9ce-4350-acbc-d0e1c727f5f8</ID>
+        <Name>ToggleArea</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>
