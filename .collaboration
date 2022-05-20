@@ -101,16 +101,7 @@
   },
   {
     "ModuleName": "PCPage/FAQ-Features-ImplementExcel",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-05-20T11:38:17.0743192+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\FAQ-Features-ImplementExcel.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Excel Implementation",
