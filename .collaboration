@@ -1,1 +1,263 @@
-[{"ModuleName":"Pages/기본 제공 페이지","ModuleType":6},{"ModuleName":"PCPage/FGC_401_권한없음","ModuleType":1},{"ModuleName":"PCPage/FGC_로그인","ModuleType":1},{"ModuleName":"PCPage/FGC_비밀번호분실","ModuleType":1},{"ModuleName":"PCPage/FGC_임시점검중","ModuleType":1},{"ModuleName":"PCPage/FGC_비밀번호변경","ModuleType":1},{"ModuleName":"PCPage/FGC_사용자정보편집","ModuleType":1},{"ModuleName":"PCPage/FGC_이메일알림설정","ModuleType":1},{"ModuleName":"PCPage/FGC_비밀번호재설정","ModuleType":1},{"ModuleName":"PCPage/FGC_비밀번호재설정링크보내기","ModuleType":1},{"ModuleName":"PCPage/FGC_2단계인증_인증코드","ModuleType":1},{"ModuleName":"PCPage/FGC_2단계인증_코드확인","ModuleType":1},{"ModuleName":"PCPage/teapot","ModuleType":1},{"ModuleName":"Pages/기본 제공 모바일 페이지","ModuleType":6},{"ModuleName":"MobilePage/FGC_401_권한없음_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_비밀번호분실_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_임시점검중_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_비밀번호변경_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_사용자정보편집_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_이메일알림설정_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_로그인_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_비밀번호재설정_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_비밀번호재설정링크보내기_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_2단계인증_인증코드_모바일","ModuleType":2},{"ModuleName":"MobilePage/FGC_2단계인증_코드확인_모바일","ModuleType":2},{"ModuleName":"PCPage/FAQ-Features-ImplementExcel","ModuleType":1},{"ModuleName":"Pages/Excel Implementation","ModuleType":6},{"ModuleName":"PCPage/A","ModuleType":1},{"ModuleName":"PCPage/B","ModuleType":1},{"ModuleName":"PCPage/C","ModuleType":1},{"ModuleName":"PCPage/D","ModuleType":1},{"ModuleName":"PCPage/E","ModuleType":1},{"ModuleName":"PCPage/F","ModuleType":1},{"ModuleName":"PCPage/G","ModuleType":1},{"ModuleName":"PCPage/H","ModuleType":1},{"ModuleName":"PCPage/I","ModuleType":1},{"ModuleName":"PCPage/J","ModuleType":1},{"ModuleName":"PCPage/K","ModuleType":1},{"ModuleName":"PCPage/L","ModuleType":1},{"ModuleName":"PCPage/M","ModuleType":1},{"ModuleName":"PCPage/N","ModuleType":1},{"ModuleName":"PCPage/O","ModuleType":1},{"ModuleName":"PCPage/P","ModuleType":1},{"ModuleName":"PCPage/Q","ModuleType":1},{"ModuleName":"PCPage/R","ModuleType":1},{"ModuleName":"PCPage/S","ModuleType":1},{"ModuleName":"PCPage/T","ModuleType":1},{"ModuleName":"PCPage/U","ModuleType":1},{"ModuleName":"PCPage/V","ModuleType":1},{"ModuleName":"PCPage/W","ModuleType":1},{"ModuleName":"PCPage/X","ModuleType":1},{"ModuleName":"PCPage/Y","ModuleType":1},{"ModuleName":"PCPage/Z","ModuleType":1},{"ModuleName":"MasterPCPage/FGC_유저마스터페이지","ModuleType":3},{"ModuleName":"ApplicationSetting","ModuleType":8},{"ModuleName":"Theme","ModuleType":9},{"ModuleName":"ImageSelector","ModuleType":10},{"ModuleName":"UserService","ModuleType":11},{"ModuleName":"CustomLibrary","ModuleType":12},{"ModuleName":"ShareCommand","ModuleType":13},{"ModuleName":"MapJsonFile","ModuleType":14},{"ModuleName":"DataContectionSet","ModuleType":25},{"ModuleName":"Upload","ModuleType":26}]
+[
+  {
+    "ModuleName": "Pages/기본 제공 페이지",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_401_권한없음",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_로그인",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_비밀번호분실",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_임시점검중",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_비밀번호변경",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_사용자정보편집",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_이메일알림설정",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_비밀번호재설정",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_비밀번호재설정링크보내기",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_2단계인증_인증코드",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_2단계인증_코드확인",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/teapot",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/기본 제공 모바일 페이지",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401_권한없음_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_비밀번호분실_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_임시점검중_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_비밀번호변경_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_사용자정보편집_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_이메일알림설정_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_로그인_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_비밀번호재설정_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_비밀번호재설정링크보내기_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_2단계인증_인증코드_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_2단계인증_코드확인_모바일",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "PCPage/FAQ-Features-ImplementExcel",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-05-20T11:38:17.0743192+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\FAQ-Features-ImplementExcel.json"
+    ]
+  },
+  {
+    "ModuleName": "Pages/Excel Implementation",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/A",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/B",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/C",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/D",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/E",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/F",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/G",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/H",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/I",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/J",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/K",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/L",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/M",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/N",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/O",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/P",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Q",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/R",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/S",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/T",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/U",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/V",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/W",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/X",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Y",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Z",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "ImageSelector",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "ShareCommand",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26
+  }
+]
